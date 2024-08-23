@@ -1,0 +1,23 @@
+cursor:
+  unfocused_hollow: false
+env:
+  TERM: alacritty
+font:
+  size: 10.0
+import:
+- ~/.config/alacritty/colors.yml
+- ~/.config/alacritty/fonts.yml
+live_config_reload: true
+window:
+  decorations: full
+  dimensions:
+    columns: 82
+    lines: 25
+  dynamic_title: true
+  history: 10000
+  multiplier: 3
+  padding:
+    x: 4
+    y: 4
+  startup_mode: Windowed
+window.opacity: 1.0
